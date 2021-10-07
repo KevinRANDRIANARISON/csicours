@@ -1,5 +1,6 @@
 <?php
 	$message = 'hello';
+	$message2 = 'world';
 
-	echo "$message";
+	echo "$message". ' ' ."$message2";
 ?>
