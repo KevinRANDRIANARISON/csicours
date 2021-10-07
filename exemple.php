@@ -84,5 +84,25 @@ print_r($tabAsso);
 echo "<br><br>";
 echo "<br><br>";
 echo "<br><br>";
+//afficher un element de mon tableau (numeroté)
+
+//utiliser la boucle FRO
+	echo "<br><br>";
+	echo "FOR<br>";
+	if (condition) {
+		// code...
+	}
+//afficher un element de mon tableau (associatif)
+	echo "<br><br>";
+	echo "<br><br>";
+	foreach ($tabAsso as $value) {
+		echo $value. '<br>';// code...
+	}
+
+	echo "<br><br>";
+	echo "<br><br>";
+	foreach ($tabAsso as $cle => $value) {
+		echo $cle. " vaut ".$value. '<br>';// code...
+	}
 
 ?>
